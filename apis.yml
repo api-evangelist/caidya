@@ -1,17 +1,38 @@
 aid: caidya
 name: Caidya
-description: 'Caidya is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Caidya is a full-service, global clinical research organization (CRO)
+  formed from the April 2021 merger of dMed and Clinipace, rebranded to Caidya in October
+  2022. It runs clinical development programs end to end — pre-IND and regulatory strategy,
+  early phase, Phase II/III delivery, study start-up, trial feasibility, clinical operations,
+  risk-based quality management, medical monitoring, clinical data management, biometrics,
+  medical writing, pharmacovigilance, quality assurance and post-marketing surveillance
+  — across oncology and hematology, cardiovascular-metabolic, rare disease, pediatrics,
+  gastroenterology, nephrology, dermatology, ophthalmology, cell and gene therapy, neurology,
+  immunology and infectious disease. The company took a $165M strategic growth investment
+  from Rubicon Founders and announced a strategic combination with Simbec-Orion. Caidya
+  is a clinical services provider rather than a software vendor: it integrates with sponsor-preferred
+  EDC, eCOA, IRT, CTMS, eTMF and safety platforms rather than publishing a developer program
+  or a public API of its own.'
+image: https://www.caidya.com/wp-content/uploads/2026/06/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/caidya/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-08'
 modified: '2026-08-08'
 tags:
 - Company
+- Clinical Research
+- Contract Research Organization
+- Healthcare
+- Life Sciences
+- Pharmaceuticals
+- Clinical Trials
+- Clinical Data Management
+- Pharmacovigilance
+- Regulatory Affairs
+- Biometrics
+- Oncology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +40,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/caidya-domain-security.yml
 - type: Website
+  url: https://www.caidya.com/
+- type: Blog
+  url: https://www.caidya.com/blog/
+- type: News
+  url: https://www.caidya.com/news/
+- type: Support
+  url: https://www.caidya.com/contact/
+- type: PrivacyPolicy
+  url: https://www.caidya.com/privacy-notices/
+- type: TermsOfService
+  url: https://www.caidya.com/disclaimer/
+- type: LLMsTxt
+  url: llms/caidya-llms.txt
+- type: Conformance
+  url: conformance/caidya-conformance.yml
+- type: Compliance
+  url: https://www.caidya.com/privacy-notices/
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/caidya-stock
+x-enrichment:
+  date: '2026-08-08'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Caidya is a clinical research organization that explicitly positions itself as an
+    integrator of the sponsor's preferred EDC, eCOA, IRT, CTMS, eTMF and safety platforms
+    rather than a publisher of its own — there is no developer portal, no api./developer.
+    subdomain (both NXDOMAIN), and the only machine-readable file on the whole estate is a
+    Yoast-generated marketing llms.txt.
+  evidence:
+  - url: https://www.caidya.com/llms.txt
+    status: 200
+  - url: https://www.caidya.com/openapi.json
+    status: 404
+  - url: https://www.caidya.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.caidya.com/.well-known/security.txt
+    status: 404
+  - url: https://www.caidya.com/about/clinical-technology-ecosystem/
+    status: 200
+  checked: '2026-08-08'
