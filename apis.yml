@@ -13,6 +13,17 @@ description: 'Caidya is a full-service, global clinical research organization (C
   is a clinical services provider rather than a software vendor: it integrates with sponsor-preferred
   EDC, eCOA, IRT, CTMS, eTMF and safety platforms rather than publishing a developer program
   or a public API of its own.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.caidya.com/wp-content/uploads/2026/06/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/caidya/refs/heads/main/apis.yml
 x-type: company
