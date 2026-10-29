@@ -64,5 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Caidya is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/caidya-stock
+Caidya is a full-service, global clinical research organization (CRO) formed from the April 2021 merger of dMed and Clinipace, rebranded to Caidya in October 2022. It runs clinical development programs end to end — pre-IND and regulatory strategy, early phase, Phase II/III delivery, study start-up, trial feasibility, clinical operations, risk-based quality management, medical monitoring, clinical data management, biometrics, medical writing, pharmacovigilance, quality assurance and post-marketing surveillance — across oncology and hematology, cardiovascular-metabolic, rare disease, pediatrics, gastroenterology, nephrology, dermatology, ophthalmology, cell and gene therapy, neurology, immunology and infectious disease. The company took a $165M strategic growth investment from Rubicon Founders and announced a strategic combination with Simbec-Orion. Caidya is a clinical services provider rather than a software vendor: it integrates with sponsor-preferred EDC, eCOA, IRT, CTMS, eTMF and safety platforms rather than publishing a developer program or a public API of its own.
+
+**Areas:** Company · Clinical Research · Contract Research Organization · Healthcare · Life Sciences · Pharmaceuticals · Clinical Trials · Clinical Data Management · Pharmacovigilance · Regulatory Affairs · Biometrics · Oncology
+
+## Caidya on APIs.io
+
+Everything profiled for Caidya is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/caidya/](https://apis.io/providers/caidya/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Caidya Domain Security](https://apis.io/security/caidya/caidya-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.caidya.com/)
+- [Support](https://www.caidya.com/contact/)
+- [Blog](https://www.caidya.com/blog/)
+- [Compliance](https://www.caidya.com/privacy-notices/)
+- [Terms of service](https://www.caidya.com/disclaimer/)
+- [Privacy policy](https://www.caidya.com/privacy-notices/)
+
+## API Evangelist rating
+
+**Kin Score 15.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/caidya/](https://apis.io/providers/caidya/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Caidya: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/caidya/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
